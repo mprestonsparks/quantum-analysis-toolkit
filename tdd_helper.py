@@ -720,17 +720,17 @@ class QToolsPrompt(cmd.Cmd):
         else:
             # Show general help
             print(f"\n{Fore.CYAN}{Style.BRIGHT}Available Commands:{Style.RESET_ALL}")
-            print(f"  {Fore.GREEN}next{Style.RESET_ALL}              - Show next action needed")
-            print(f"  {Fore.GREEN}status{Style.RESET_ALL}            - Show project status")
-            print(f"  {Fore.GREEN}issue <number>{Style.RESET_ALL}    - Record GitHub issue")
-            print(f"  {Fore.GREEN}tests-received{Style.RESET_ALL}    - Record test receipt")
-            print(f"  {Fore.GREEN}run-tests{Style.RESET_ALL}         - Run current tests")
-            print(f"  {Fore.GREEN}approve-tests{Style.RESET_ALL}     - Approve current tests")
-            print(f"  {Fore.GREEN}request-test-changes{Style.RESET_ALL} - Request test changes")
-            print(f"  {Fore.GREEN}implementation-received{Style.RESET_ALL} - Record implementation")
-            print(f"  {Fore.GREEN}approve-implementation{Style.RESET_ALL} - Approve implementation")
-            print(f"  {Fore.GREEN}help{Style.RESET_ALL}              - Show this help message")
-            print(f"  {Fore.GREEN}quit{Style.RESET_ALL}              - Exit the program")
+            print(f"  {Fore.GREEN}next{Style.RESET_ALL}                     - Show next action needed")
+            print(f"  {Fore.GREEN}status{Style.RESET_ALL}                   - Show project status")
+            print(f"  {Fore.GREEN}issue <number>{Style.RESET_ALL}           - Record GitHub issue")
+            print(f"  {Fore.GREEN}tests-received{Style.RESET_ALL}           - Record test receipt")
+            print(f"  {Fore.GREEN}run-tests{Style.RESET_ALL}                - Run current tests")
+            print(f"  {Fore.GREEN}approve-tests{Style.RESET_ALL}            - Approve current tests")
+            print(f"  {Fore.GREEN}request-test-changes{Style.RESET_ALL}     - Request test changes")
+            print(f"  {Fore.GREEN}implementation-received{Style.RESET_ALL}  - Record implementation")
+            print(f"  {Fore.GREEN}approve-implementation{Style.RESET_ALL}   - Approve implementation")
+            print(f"  {Fore.GREEN}help{Style.RESET_ALL}                     - Show this help message")
+            print(f"  {Fore.GREEN}quit{Style.RESET_ALL}                     - Exit the program")
 
     def do_quit(self, arg):
         """Exit the program"""
