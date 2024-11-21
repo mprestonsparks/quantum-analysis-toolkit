@@ -1,13 +1,13 @@
-//! Phase synchronization detection
+//! Quantum entanglement measures
 
 use crate::utils::types::*;
 
-/// Main struct for phase.rs functionality
-pub struct Phase {
+/// Main struct for entanglement.rs functionality
+pub struct Entanglement {
     // TODO: Add fields
 }
 
-impl Phase {
+impl Entanglement {
     /// Creates a new instance
     pub fn new() -> Self {
         Self {

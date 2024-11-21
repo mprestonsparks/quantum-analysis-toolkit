@@ -1,13 +1,13 @@
-//! Phase synchronization detection
+//! Network topology analysis
 
 use crate::utils::types::*;
 
-/// Main struct for phase.rs functionality
-pub struct Phase {
+/// Main struct for topology.rs functionality
+pub struct Topology {
     // TODO: Add fields
 }
 
-impl Phase {
+impl Topology {
     /// Creates a new instance
     pub fn new() -> Self {
         Self {

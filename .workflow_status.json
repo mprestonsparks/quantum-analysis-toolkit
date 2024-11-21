@@ -1,0 +1,154 @@
+{
+  "src/utils/types.rs": {
+    "source_file": "src/utils/types.rs",
+    "test_file": "tests/utils/types_tests.rs",
+    "example_file": "examples/types_usage.rs",
+    "status": "pending",
+    "scenario": "basic",
+    "workflow_state": "PENDING",
+    "issue_number": null,
+    "last_updated": "2024-11-20T18:21:27.889170",
+    "notes": [],
+    "dependencies": [],
+    "acceptance_criteria": [],
+    "test_review_comments": [],
+    "implementation_review_comments": [],
+    "documentation_review_comments": [],
+    "examples_review_comments": []
+  },
+  "src/signal/weak_signal.rs": {
+    "source_file": "src/signal/weak_signal.rs",
+    "test_file": "tests/signal/weak_signal_tests.rs",
+    "example_file": "examples/signal_analysis.rs",
+    "status": "pending",
+    "scenario": "basic",
+    "workflow_state": "PENDING",
+    "issue_number": null,
+    "last_updated": "2024-11-20T18:21:27.889170",
+    "notes": [],
+    "dependencies": [
+      "src/utils/types.rs"
+    ],
+    "acceptance_criteria": [],
+    "test_review_comments": [],
+    "implementation_review_comments": [],
+    "documentation_review_comments": [],
+    "examples_review_comments": []
+  },
+  "src/pattern/recognition.rs": {
+    "source_file": "src/pattern/recognition.rs",
+    "test_file": "tests/pattern/recognition_tests.rs",
+    "example_file": "examples/pattern_detection.rs",
+    "status": "pending",
+    "scenario": "basic",
+    "workflow_state": "PENDING",
+    "issue_number": null,
+    "last_updated": "2024-11-20T18:21:27.889170",
+    "notes": [],
+    "dependencies": [
+      "src/utils/types.rs"
+    ],
+    "acceptance_criteria": [],
+    "test_review_comments": [],
+    "implementation_review_comments": [],
+    "documentation_review_comments": [],
+    "examples_review_comments": []
+  },
+  "src/quantum/state.rs": {
+    "source_file": "src/quantum/state.rs",
+    "test_file": "tests/quantum/state_tests.rs",
+    "example_file": "examples/quantum_state.rs",
+    "status": "pending",
+    "scenario": "intermediate",
+    "workflow_state": "PENDING",
+    "issue_number": null,
+    "last_updated": "2024-11-20T18:21:27.889170",
+    "notes": [],
+    "dependencies": [
+      "src/utils/types.rs",
+      "src/signal/weak_signal.rs"
+    ],
+    "acceptance_criteria": [],
+    "test_review_comments": [],
+    "implementation_review_comments": [],
+    "documentation_review_comments": [],
+    "examples_review_comments": []
+  },
+  "src/sync/phase.rs": {
+    "source_file": "src/sync/phase.rs",
+    "test_file": "tests/sync/phase_tests.rs",
+    "example_file": "examples/phase_sync.rs",
+    "status": "pending",
+    "scenario": "intermediate",
+    "workflow_state": "PENDING",
+    "issue_number": null,
+    "last_updated": "2024-11-20T18:21:27.889170",
+    "notes": [],
+    "dependencies": [
+      "src/quantum/state.rs"
+    ],
+    "acceptance_criteria": [],
+    "test_review_comments": [],
+    "implementation_review_comments": [],
+    "documentation_review_comments": [],
+    "examples_review_comments": []
+  },
+  "src/network/kuramoto.rs": {
+    "source_file": "src/network/kuramoto.rs",
+    "test_file": "tests/network/kuramoto_tests.rs",
+    "example_file": "examples/kuramoto_model.rs",
+    "status": "pending",
+    "scenario": "advanced",
+    "workflow_state": "PENDING",
+    "issue_number": null,
+    "last_updated": "2024-11-20T18:21:27.889170",
+    "notes": [],
+    "dependencies": [
+      "src/quantum/state.rs",
+      "src/sync/phase.rs"
+    ],
+    "acceptance_criteria": [],
+    "test_review_comments": [],
+    "implementation_review_comments": [],
+    "documentation_review_comments": [],
+    "examples_review_comments": []
+  },
+  "src/network/topology.rs": {
+    "source_file": "src/network/topology.rs",
+    "test_file": "tests/network/topology_tests.rs",
+    "example_file": "examples/network_topology.rs",
+    "status": "pending",
+    "scenario": "advanced",
+    "workflow_state": "PENDING",
+    "issue_number": null,
+    "last_updated": "2024-11-20T18:21:27.889170",
+    "notes": [],
+    "dependencies": [
+      "src/network/kuramoto.rs"
+    ],
+    "acceptance_criteria": [],
+    "test_review_comments": [],
+    "implementation_review_comments": [],
+    "documentation_review_comments": [],
+    "examples_review_comments": []
+  },
+  "src/quantum/entanglement.rs": {
+    "source_file": "src/quantum/entanglement.rs",
+    "test_file": "tests/quantum/entanglement_tests.rs",
+    "example_file": "examples/entanglement.rs",
+    "status": "pending",
+    "scenario": "advanced",
+    "workflow_state": "PENDING",
+    "issue_number": null,
+    "last_updated": "2024-11-20T18:21:27.889170",
+    "notes": [],
+    "dependencies": [
+      "src/quantum/state.rs"
+    ],
+    "acceptance_criteria": [],
+    "test_review_comments": [],
+    "implementation_review_comments": [],
+    "documentation_review_comments": [],
+    "examples_review_comments": []
+  }
+}

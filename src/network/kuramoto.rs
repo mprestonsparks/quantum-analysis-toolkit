@@ -1,13 +1,13 @@
-//! Phase synchronization detection
+//! Kuramoto model implementation for network synchronization
 
 use crate::utils::types::*;
 
-/// Main struct for phase.rs functionality
-pub struct Phase {
+/// Main struct for kuramoto.rs functionality
+pub struct Kuramoto {
     // TODO: Add fields
 }
 
-impl Phase {
+impl Kuramoto {
     /// Creates a new instance
     pub fn new() -> Self {
         Self {

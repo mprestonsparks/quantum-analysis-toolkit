@@ -1,0 +1,90 @@
+{
+  "src/utils/types.rs": {
+    "source_file": "src/utils/types.rs",
+    "test_file": "tests/utils/types_tests.rs",
+    "status": "pending",
+    "scenario": "basic",
+    "last_updated": "2024-11-20T18:01:08.397497",
+    "notes": [],
+    "dependencies": []
+  },
+  "src/signal/weak_signal.rs": {
+    "source_file": "src/signal/weak_signal.rs",
+    "test_file": "tests/signal/weak_signal_tests.rs",
+    "status": "pending",
+    "scenario": "basic",
+    "last_updated": "2024-11-20T18:01:08.398498",
+    "notes": [],
+    "dependencies": [
+      "src/utils/types.rs"
+    ]
+  },
+  "src/pattern/recognition.rs": {
+    "source_file": "src/pattern/recognition.rs",
+    "test_file": "tests/pattern/recognition_tests.rs",
+    "status": "pending",
+    "scenario": "basic",
+    "last_updated": "2024-11-20T18:01:08.400498",
+    "notes": [],
+    "dependencies": [
+      "src/utils/types.rs"
+    ]
+  },
+  "src/quantum/state.rs": {
+    "source_file": "src/quantum/state.rs",
+    "test_file": "tests/quantum/state_tests.rs",
+    "status": "pending",
+    "scenario": "intermediate",
+    "last_updated": "2024-11-20T18:01:08.401498",
+    "notes": [],
+    "dependencies": [
+      "src/utils/types.rs",
+      "src/signal/weak_signal.rs"
+    ]
+  },
+  "src/sync/phase.rs": {
+    "source_file": "src/sync/phase.rs",
+    "test_file": "tests/sync/phase_tests.rs",
+    "status": "pending",
+    "scenario": "intermediate",
+    "last_updated": "2024-11-20T18:01:08.402498",
+    "notes": [],
+    "dependencies": [
+      "src/quantum/state.rs"
+    ]
+  },
+  "src/network/kuramoto.rs": {
+    "source_file": "src/network/kuramoto.rs",
+    "test_file": "tests/network/kuramoto_tests.rs",
+    "status": "pending",
+    "scenario": "advanced",
+    "last_updated": "2024-11-20T18:01:08.403498",
+    "notes": [],
+    "dependencies": [
+      "src/quantum/state.rs",
+      "src/sync/phase.rs"
+    ]
+  },
+  "src/network/topology.rs": {
+    "source_file": "src/network/topology.rs",
+    "test_file": "tests/network/topology_tests.rs",
+    "status": "pending",
+    "scenario": "advanced",
+    "last_updated": "2024-11-20T18:01:08.405498",
+    "notes": [],
+    "dependencies": [
+      "src/network/kuramoto.rs"
+    ]
+  },
+  "src/quantum/entanglement.rs": {
+    "source_file": "src/quantum/entanglement.rs",
+    "test_file": "tests/quantum/entanglement_tests.rs",
+    "status": "pending",
+    "scenario": "advanced",
+    "last_updated": "2024-11-20T18:01:08.408498",
+    "notes": [],
+    "dependencies": [
+      "src/quantum/state.rs"
+    ]
+  }
+}
